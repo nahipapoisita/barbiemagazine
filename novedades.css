@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #ffcfe2;
+    font-size: 20px;
+}
+
+.novedad{
+    width: 90vw;
+    max-width: 900px;
+
+    margin: 16px auto;
+    border-radius: 20px;
+    border: 4px dotted  rgb(255, 73, 140);
+    padding: 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+}
+.novedad p{
+    line-height: 1.8;
+    padding-top: 16px;
+}
+h1{
+    color: rgb(255, 0, 144);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 40px;
+     
+}
+
+strong{
+    color: #ff2a91;
+}
+
+
+
+header {
+    background-color: #ff2a91;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: rgb(125, 15, 77);
+}
+
+
+
+.logo a{
+    display: block;
+}
+
+.logo img {
+    width: 200px;
+    height: 74px ;}
+

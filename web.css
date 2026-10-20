@@ -22,6 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+
 }
 
 nav {
@@ -49,6 +50,10 @@ nav a:hover {
 
 .usuario button:hover {
     background-color: rgb(125, 15, 77);
+}
+
+.logo a{
+    display: block;
 }
 
 .logo img {
@@ -208,3 +213,14 @@ iframe{
     color: #ff0f87;
 }
 
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+    }
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
